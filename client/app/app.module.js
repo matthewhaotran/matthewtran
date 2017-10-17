@@ -31,5 +31,17 @@
             templateUrl: 'app/about/about.template.html'
         });
 
+        $stateProvider.state('projects', {
+            url: '/projects',
+            controller: 'ProjectsController as projectsCtrl',
+            templateUrl: 'app/projects/projects.template.html'
+        });
+
+        $stateProvider.state('contact', {
+            url: '/contact',
+            controller: 'ContactController as contactCtrl',
+            templateUrl: 'app/contact/contact.template.html'
+        });
+
     };
 })();
