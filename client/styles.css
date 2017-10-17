@@ -26,3 +26,7 @@ body {
 .top-buffer {
     margin-top: 20px;
 }
+
+.footer {
+    background-color: black;
+}
