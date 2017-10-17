@@ -30,3 +30,8 @@ body {
 .footer {
     background-color: black;
 }
+
+.aboutme {
+    background-color: grey;
+    color: white;
+}
