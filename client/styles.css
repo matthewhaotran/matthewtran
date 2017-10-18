@@ -41,3 +41,11 @@ body {
     border-radius: 100px;
     padding: 20px;
 }
+
+#projectheadline {
+    background-color: red;
+}
+
+#vaultdiv {
+    background-color: blue;
+}
