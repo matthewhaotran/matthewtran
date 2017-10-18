@@ -35,3 +35,8 @@ body {
     background-color: grey;
     color: white;
 }
+
+.aboutme-pic {
+    border-radius: 100px;
+    padding: 20px;
+}
