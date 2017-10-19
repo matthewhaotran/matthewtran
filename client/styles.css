@@ -2,15 +2,30 @@ body {
     padding-top: 50px;
 }
 
+
+/*-- Home Screen Jumbotron --*/
+
 .jumbotron {
-    margin-bottom: 0px;
     background-image: url(../images/zion.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
-    height: 100vh;
+    text-align: center;
+    height: 95vh;
 }
+
+.jumbotrontext {
+    background-color: grey;
+    padding: 15px;
+}
+
+.vertical-center {
+    display: flex;
+}
+
+
+/*-- Home Screen Jumbotron --*/
 
 .headshot {
     width: 100%;
@@ -19,13 +34,9 @@ body {
     display: block;
 }
 
-
-/* div {
-    border: 2px solid red;
-} */
-
 .top-buffer {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .footer {
