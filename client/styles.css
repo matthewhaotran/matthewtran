@@ -19,6 +19,7 @@ body {
     display: block;
 }
 
+
 /* div {
     border: 2px solid red;
 } */
@@ -39,4 +40,21 @@ body {
 .aboutme-pic {
     border-radius: 100px;
     padding: 20px;
+}
+
+#projectheadline {
+    background-color: red;
+}
+
+#vaultdiv {
+    background-color: blue;
+}
+
+#expresserdiv {
+    background-color: green;
+}
+
+.projectimages {
+    margin: 1em;
+    border: 2px solid red;
 }
