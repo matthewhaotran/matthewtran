@@ -2,15 +2,30 @@ body {
     padding-top: 50px;
 }
 
+
+/*-- Home Screen Jumbotron --*/
+
 .jumbotron {
-    margin-bottom: 0px;
     background-image: url(../images/zion.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
-    height: 100vh;
+    text-align: center;
+    height: 95vh;
 }
+
+.jumbotrontext {
+    background-color: grey;
+    padding: 15px;
+}
+
+.vertical-center {
+    display: flex;
+}
+
+
+/*-- Home Screen Jumbotron --*/
 
 .headshot {
     width: 100%;
@@ -19,13 +34,9 @@ body {
     display: block;
 }
 
-
-/* div {
-    border: 2px solid red;
-} */
-
 .top-buffer {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .footer {
@@ -43,18 +54,48 @@ body {
 }
 
 #projectheadline {
-    background-color: red;
+    background-color: white;
 }
 
 #vaultdiv {
-    background-color: blue;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    color: darkblue;
 }
 
 #expresserdiv {
-    background-color: green;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    color: darkblue;
 }
 
 .projectimages {
-    margin: 1em;
-    border: 2px solid red;
+    margin: 3em;
+    border: 2px solid black;
+    width: 35%;
+    height: 35%;
+    margin: auto auto;
+}
+
+.projectimages1 {
+    margin: 3em;
+    border: 2px solid black;
+    width: 51%;
+    height: 51%;
+    margin: auto auto;
+}
+
+.round-corner {
+    padding: .25em;
+    background-color: #89B0D9;
+    color: #000;
+    border: 2px #002647 solid;
+    border-radius: 50px;
+}
+
+.project-skills>li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1.5em;
+    width: 20%;
 }
