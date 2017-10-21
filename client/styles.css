@@ -41,6 +41,8 @@ body {
 
 .footer {
     background-color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .aboutme {
