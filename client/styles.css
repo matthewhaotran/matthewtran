@@ -48,6 +48,7 @@ body {
 .aboutme {
     background-color: grey;
     color: white;
+    padding: 20px;
 }
 
 .aboutme-pic {
