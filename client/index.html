@@ -1,77 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="app">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="stylesheet" href="css/bundle.min.css">
 </head>
 
-<body ng-cloak class="ng-cloak">
-
-  <div class="navbar-header">
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-            aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li ui-sref-active="active">
-              <a ui-sref="home" data-toggle="collapse" data-target=".navbar-collapse">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li ui-sref-active="active">
-              <a ui-sref="about" data-toggle="collapse" data-target=".navbar-collapse">About Me</a>
-            </li>
-            <li ui-sref-active="active">
-              <a ui-sref="projects" data-toggle="collapse" data-target=".navbar-collapse">Projects</a>
-            </li>
-            <li ui-sref-active="active">
-              <a ui-sref="contact" data-toggle="collapse" data-target=".navbar-collapse">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container-fluid -->
-    </nav>
+<body>
+  <div class="container">
+    <h1 class="text-center">Matthew Tran</h1>
   </div>
-  <div ui-view></div>
-  <div class="row footer">
-    <div class="col-md-12">
-      <div class="row text-center top-buffer">
-        <ul class="list-inline col-xs-12">
-          <a href="http://www.github.com/matthewhaotran" target="_blank">
-            <i class="fa fa-github-square fa-5x"></i>
-          </a>
-          <a href="http://wwww.facebook.com/matthewhaotran" target="_blank">
-            <i class="fa fa-facebook-square fa-5x"></i>
-          </a>
-          <a href="http://www.twitter.com/matthewhaotran" target="_blank">
-            <i class="fa fa-twitter-square fa-5x"></i>
-          </a>
-          <a href="http://www.linkedin.com/in/matthewhaotran" target="_blank">
-            <i class="fa fa-linkedin-square fa-5x"></i>
-          </a>
-        </ul>
-      </div>
-      <h3 class="text-center">&copy; Matthew Tran</h3>
-    </div>
-  </div>
-
   <script src="js/bundle.min.js"></script>
 </body>
 

@@ -30,9 +30,6 @@ gulp.task('build:js', () =>
   .src([
     'node_modules/jquery/dist/jquery.js',
     'node_modules/bootstrap/dist/js/bootstrap.js',
-    'node_modules/angular/angular.js',
-    'node_modules/angular-ui-router/release/angular-ui-router.js',
-    'node_modules/angular-ui-carousel/dist/ui-carousel.min.js',
     'client/**/*.module.js',
     'client/**/*.js'
   ])
@@ -48,7 +45,6 @@ gulp.task('build:css', () =>
   .src([
     'node_modules/bootstrap/dist/css/bootstrap.css',
     'node_modules/font-awesome/css/font-awesome.css',
-    'node_modules/angular-ui-carousel/dist/ui-carousel.min.css',
     'client/**/*.css'
   ])
   .pipe($.concat('bundle.min.css'))
