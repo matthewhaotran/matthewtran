@@ -1,10 +1,6 @@
 # Matthew Tran's Portfolio
 
-This project is a web application that will serve as my portfolio.  It will tell my story and show my favorite projects.
-
-## Built With
-
-* [AngularJS](https://angularjs.org/) - The web framework used
+This project is a web application that will serve as my personal website.
 
 ## Authors
 
