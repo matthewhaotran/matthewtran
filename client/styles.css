@@ -179,6 +179,15 @@ p {
     width: 96%
 }
 
+.portfoliothumbnail {
+    width: 235px;
+    height: 235px;
+    border: 1px solid black;
+}
+.portfoliolink {
+    padding: 20px;
+}
+
 @media only screen and (min-width: 45em) {
     .col-1 {
         width: 4.33333%
