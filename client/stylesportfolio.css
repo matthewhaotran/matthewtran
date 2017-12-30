@@ -7,6 +7,6 @@
     padding: 20px;
 }
 
-h1 {
-    color: green;
+.project {
+    border: solid 1px black;
 }
