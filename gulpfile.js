@@ -45,15 +45,28 @@ gulp.task('build:css', () =>
   .src([
     'node_modules/bootstrap/dist/css/bootstrap.css',
     'node_modules/font-awesome/css/font-awesome.css',
-    'client/**/*.css'
+    'client/styles.css'
   ])
   .pipe($.concat('bundle.min.css'))
   .pipe($.cleanCss())
   .pipe(gulp.dest('./dist/css'))
 );
 
+gulp.task('build:cssportfolio', () =>
+  gulp
+  .src([
+    'node_modules/bootstrap/dist/css/bootstrap.css',
+    'node_modules/font-awesome/css/font-awesome.css',
+    'client/stylesportfolio.css'
+  ])
+  .pipe($.concat('bundleportfolio.min.css'))
+  .pipe($.cleanCss())
+  .pipe(gulp.dest('./dist/css'))
+);
+
 gulp.task('watch', () => {
-  gulp.watch('./client/**/*.css', ['build:css']);
+  gulp.watch('./client/styles.css', ['build:css']);
+  gulp.watch('./client/stylesportfolio.css', ['build:cssportfolio']);
   gulp.watch('./client/**/*.js', ['build:js']);
   gulp.watch('./client/**/*.html', ['copy:html']);
 });
@@ -67,6 +80,6 @@ gulp.task('serve', () =>
   })
 );
 
-gulp.task('build', ['copy:fonts', 'copy:images', 'copy:html', 'build:js', 'build:css', 'copy:carouselFonts'])
+gulp.task('build', ['copy:fonts', 'copy:images', 'copy:html', 'build:js', 'build:css', 'build:cssportfolio'])
 
 gulp.task('default', ['build', 'watch', 'serve']);
