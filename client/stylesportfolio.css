@@ -1,0 +1,12 @@
+.portfoliothumbnail {
+    width: 235px;
+    height: 235px;
+    border: 1px solid black;
+}
+.portfoliolink {
+    padding: 20px;
+}
+
+h1 {
+    color: green;
+}
