@@ -7,6 +7,10 @@
     padding: 20px;
 }
 
-.project {
-    border: solid 1px black;
+/* .project {
+    border: solid 1px lightgrey;
+} */
+
+.margin-top {
+    margin-top: 1.5rem;
 }
