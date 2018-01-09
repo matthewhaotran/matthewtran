@@ -1,6 +1,8 @@
 # Matthew Tran's Portfolio
 
-This project is a web application that will serve as my personal website.
+This project is a web application that will serve as my personal website. It can be seen at:
+
+[Matthew Tran](http://matthewtran.herokuapp.com/)
 
 ## Authors
 
