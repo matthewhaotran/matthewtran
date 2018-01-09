@@ -6,7 +6,7 @@ This project is a web application that will serve as my personal website. It can
 
 ## Authors
 
-* **Matthew Tran** - *Initial work* - [Matthewhaotran](https://github.com/matthewhaotran)
+* **Matthew Tran** - [Matthewhaotran](https://github.com/matthewhaotran)
 
 ## Acknowledgments
 
