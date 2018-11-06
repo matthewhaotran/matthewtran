@@ -182,7 +182,7 @@ p {
 .portfoliothumbnail {
     width: 235px;
     height: 235px;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 .portfoliolink {
     padding: 20px;
